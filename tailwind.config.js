@@ -1,7 +1,9 @@
 
 
 
-const plugin = require('tailwindcss/plugin')
+// const plugin = require('tailwindcss/plugin')
+
+const plugin = require("tailwindcss/plugin");
 
 module.exports = {
     content: [
@@ -25,15 +27,7 @@ module.exports = {
     colors: {
       black: "#090C02",
       white: "#ffffff",
-
-      // primary: '#C534E5',
-      // primaryVar: '#A71AC7',
-      // primaryD: '#791390',
-
-      // secondary: '#E57443',
-      // secondaryVar: '#D7551D',
-      // secondaryD: '#A24016',
-
+      
       primary: "#26ADCB",
       primaryVar: "#2192AB",
       primaryD: "#145D6D",
